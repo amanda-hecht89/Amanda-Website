@@ -8,7 +8,8 @@ export default function Education() {
         <Accordion/>
       </div>
       <h1>TRAVEL</h1>
-      
+      <img src='/Images/travel.jpeg' height='350' className='travel'/>
+
       <footer></footer>
     </div>
   );

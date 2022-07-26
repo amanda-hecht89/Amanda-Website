@@ -27,6 +27,10 @@ body {
   flex-direction: row;
 }
 
+.travel {
+  border-radius: 10%;
+}
+
 .para1 {
   font-size: 25px;
 }
