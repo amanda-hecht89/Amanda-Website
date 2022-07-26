@@ -18,7 +18,11 @@ export default function SimpleAccordion() {
           <Typography className='acc-head'>High School</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p>HIGH SCHOOL</p>
+          <div>
+            <img src='/Images/jcchs.png' height='150'/>
+            <p>HIGH SCHOOL</p>
+
+          </div>
         </AccordionDetails>
       </Accordion>
 
@@ -33,6 +37,7 @@ export default function SimpleAccordion() {
           <Typography className='acc-head'>College</Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <img src='/Images/athens.png' height='150'/>
           <p>COLLEGE</p>
         </AccordionDetails>
       </Accordion>
@@ -48,6 +53,7 @@ export default function SimpleAccordion() {
           <Typography className='acc-head'>Alchemy</Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <img src='/Images/alchemy.png' height='150'/>
           <p>CODING SCHOOL</p>
         </AccordionDetails>
       </Accordion>
