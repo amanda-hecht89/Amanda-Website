@@ -8,5 +8,10 @@
   font-size: 35px;
   display: flex;
   justify-content: space-around;
-  background-color: lightpink;
+  background-color: lightcoral;
+}
+
+.photo1 {
+  border-radius: 50%;
+  border: 5px solid lightcoral;
 }
