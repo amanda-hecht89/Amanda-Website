@@ -1,7 +1,15 @@
 import React from 'react';
-
+import Accordion from './Accordion';
 export default function Education() {
   return (
-    <div>Education</div>
+    <div>
+      <h1>EDUCATION</h1>
+      <div>
+        <Accordion/>
+      </div>
+    </div>
   );
 }
+
+
+
