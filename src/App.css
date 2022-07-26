@@ -26,3 +26,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.para1 {
+  font-size: 25px;
+}

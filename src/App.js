@@ -8,6 +8,7 @@ import Education from './Education';
 import ContactMe from './ContactMe';
 import Welcome from './Welcome';
 import './App.css';
+import './Fancy.css';
 
 export default function App() {
   return (

@@ -10,7 +10,7 @@
 
 @keyframes scroll {
     0%   {top: 0px; left: 0%}
-    50% {top: 0px; left: 90%}
+    50% {top: 0px; left: 60%}
     100% {top: 0px; left:0%}
 
 }
@@ -18,16 +18,17 @@
 h1 {
     position: relative;
     animation-name: scroll;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     font-family: 'Rampart One', cursive;
     background: -webkit-linear-gradient(rgb(238, 149, 6), rgb(224, 102, 186));
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 45px;
+    font-size: 65px;
 }
 
 h2 {
     font-family: 'Fredoka One', cursive;
+    font-size: 35px;
     }
