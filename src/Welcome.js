@@ -16,7 +16,7 @@ export default function Welcome() {
 
       <div className='WelBody'>
         <p className='para1'>
-        I'm a Software Engineer with a background in Barbering and Beauty. Im a creative person and a huge animal lover. Making lots of awesome changes in my life and ready to start a new chapter in my life.
+        Im a Software Engineer with a background in Barbering and Beauty. Im a creative person and a huge animal lover. Making lots of awesome changes in my life and ready to start a new chapter in my life.
         </p>
       </div>
 
