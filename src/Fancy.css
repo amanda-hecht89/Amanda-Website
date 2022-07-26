@@ -32,3 +32,8 @@ h2 {
     font-family: 'Fredoka One', cursive;
     font-size: 35px;
     }
+
+    .dump {
+        border-radius: 35%;
+        padding: 10px;
+    }

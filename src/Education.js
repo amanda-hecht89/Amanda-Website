@@ -8,6 +8,7 @@ export default function Education() {
         <Accordion/>
       </div>
       <h1>TRAVEL</h1>
+      
       <footer></footer>
     </div>
   );
