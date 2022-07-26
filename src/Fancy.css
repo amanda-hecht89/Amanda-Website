@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rampart+One&display=swap');
+
+@keyframes colors {
+    0% {background-color: darkorange;}
+    25% {background-color: pink;}
+    50% {background-color: darkorange;}
+    75% {background-color: pink;}
+    100% {background-color: darkorange;}
+}
+
+@keyframes scroll {
+    0%   {top: 0px; left: 0%}
+    50% {top: 0px; left: 90%}
+    100% {top: 0px; left:0%}
+
+}
+
+h1 {
+    position: relative;
+    animation-name: scroll;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    font-family: 'Rampart One', cursive;
+    background: -webkit-linear-gradient(rgb(238, 149, 6), rgb(224, 102, 186));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+h2 {
+
+    font-family: 'Fredoka One', cursive;
+    
+}
