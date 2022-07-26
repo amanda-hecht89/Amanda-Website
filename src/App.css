@@ -17,3 +17,12 @@ body {
   background-color: rgba(55, 146, 226, 0.54);
   background-size: 30%;
 }
+
+.icon {
+  height: 145px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
