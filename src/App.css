@@ -20,19 +20,34 @@ body {
 
 .icon {
   height: 145px;
+  border: 5px solid green;
+  margin: 3px;
+  padding: 35px;
 }
 
 .links {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 }
 
 .profiles {
   display: flex;
+  border: 4px solid lightcoral;
+  margin: 5px;
+  padding: 15px;
+}
+
+p {
+  display: flex;
+  align-content: center;
 }
 
 .projects {
   display: flex;
+  border: 4px solid lightcoral;
+  padding: 15px;
 }
 
 .life {
