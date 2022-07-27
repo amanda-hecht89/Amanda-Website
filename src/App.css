@@ -20,14 +20,19 @@ body {
 
 .icon {
   height: 145px;
-  display: flex;
-
 }
 
 .links {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+}
+
+.profiles {
+  display: flex;
+}
+
+.projects {
+  display: flex;
 }
 
 .life {
