@@ -30,7 +30,11 @@ body {
   justify-content: space-around;
 }
 
-
+.life {
+  padding: 10px;
+  border-radius: 10%;
+  opacity: .8;
+}
 
 .travel {
   border-radius: 10%;
