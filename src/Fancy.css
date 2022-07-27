@@ -31,6 +31,8 @@ h1 {
 h2 {
     font-family: 'Fredoka One', cursive;
     font-size: 35px;
+    display: flex;
+    justify-content: center;
     }
 
     .dump {
