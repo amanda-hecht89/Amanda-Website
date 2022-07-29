@@ -16,14 +16,20 @@
 .shellGame {
     display: flex;
     flex-direction: row;
-    border: 3px solid black;
 }
 
 .shellsss {
-    border: 3px solid green;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 3px;
     padding: 15px;    
+}
+
+.ball {
+    height: 150px;
+    width: 100px;
+
 }
 
 .button {
@@ -32,15 +38,21 @@
     margin: 10px;
 }
 
-.results {
+/* .results {
     border: 3px solid blue;
-}
+} */
 
-.ball {
+.hide {
     display: none;
+
 }
 
-.shell {
-border: 4px solid lightgreen;
+.reveal {
+    display: block;
 }
+
+/* .shell {
+border: 4px solid lightgreen;
+} */
+
 

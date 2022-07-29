@@ -5,19 +5,38 @@ export default function ShellGame() {
 
   const [win, setWin] = useState(0);
   const [loss, setLoss] = useState(0);
-  const [reveal, setReveal] = useState(false);
+  const [reveal1, setReveal1] = useState(false);
+  const [reveal2, setReveal2] = useState(false);
+  const [reveal3, setReveal3] = useState(false);
 
   function handleShellClick(guess) {
+    resetStyles();
     const randomNum1 = Math.ceil(Math.random() * 3);
     if (randomNum1 === guess) {
-      `ball${guess}`.classList.add('reveal');
+      if (randomNum1 === 1) {
+        setReveal1(true);
+      } if (randomNum1 === 2) {
+        setReveal2(true);
+      } if (randomNum1 === 3) {
+        setReveal3(true);
+      }
       setWin(win + 1) ;
-    } else {
-      `ball${randomNum1}`.classList.add('reveal');
+    } else { 
+      if (randomNum1 === 1) {
+        setReveal1(true);
+      } if (randomNum1 === 2) {
+        setReveal2(true);
+      } if (randomNum1 === 3) {
+        setReveal3(true);
+      }
       setLoss(loss + 1);
     }}
 
-
+  function resetStyles() {
+    setReveal1(false);
+    setReveal2(false);
+    setReveal3(false);
+  }  
   return (
     <div>
       <h1>Shell Game</h1>
@@ -32,26 +51,26 @@ export default function ShellGame() {
             there is to do here, include hiking. But be careful, you might spot a YETI!!!!!
         </p>
       </div>
-      <div className='shellGame'>
-        <div className={ reveal ? 'reveal' : 'hide' }>
-          <h2>ASPEN</h2>
+      <div>
+        <div className='shellGame'>
           <div className='shellsss shell1'>
+            <h2>ASPEN</h2>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
-            <img className='ball' src='./Images/yeti.png' height='150'/>
+            <img className={ reveal1 ? 'reveal ball' : 'hide' } src='./Images/yeti.png'/>
+            <button onClick={() => handleShellClick(1)} className='button'>PICK HERE</button><br/><br/><br/><br/>
           </div>
-          <button onClick={() => handleShellClick(1)} className='button'>PICK HERE</button><br/><br/><br/><br/>
-          <h2>ESTES PARK</h2>
           <div className='shellsss shell2'>
+            <h2>ESTES PARK</h2>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
-            <img className='ball' src='./Images/yeti.png' height='150'/>
+            <img className={ reveal2 ? 'reveal ball' : 'hide' } src='./Images/yeti.png'/>
+            <button onClick={() => handleShellClick(2)} className='button'>PICK HERE</button><br/><br/><br/><br/>
           </div>
-          <button onClick={() => handleShellClick(2)} className='button'>PICK HERE</button><br/><br/><br/><br/>
-          <h2>BRECKENRIDGE</h2>
           <div className='shellsss shell3'>
+            <h2>BRECKENRIDGE</h2>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
-            <img className='ball' src='./Images/yeti.png' height='150'/>
+            <img className={ reveal3 ? 'reveal ball' : 'hide' } src='./Images/yeti.png'/>
+            <button onClick={() => handleShellClick(3)} className='button'>PICK HERE</button>
           </div>
-          <button onClick={() => handleShellClick(3)} className='button'>PICK HERE</button>
         </div>
       </div>
 
