@@ -1,6 +1,7 @@
 
 .nav-header {
-  border: 3px solid rgba(55, 146, 226, 0.956);
+  border: 10px solid transparent;
+  border-image: url(border3.png) 30 round;
   font-size: 35px;
   display: flex;
   justify-content: space-around;
