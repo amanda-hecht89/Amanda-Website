@@ -3,8 +3,9 @@ import './ShellGame.css';
 
 export default function ShellGame() {
 
-  const [win, setWin] = useState;
-  const [loss, setLoss] = useState;
+  const [win, setWin] = useState(0);
+  const [loss, setLoss] = useState(0);
+  const [reveal, setReveal] = useState(false);
 
   function handleShellOneClick() {
 
@@ -20,6 +21,11 @@ export default function ShellGame() {
 
 
   return (
-    <div>SHELLGAME</div>
+    <div>SHELLGAME
+
+      <div className={ reveal ? 'reveal' : 'hide' }>
+
+      </div>
+    </div>
   );
 }
