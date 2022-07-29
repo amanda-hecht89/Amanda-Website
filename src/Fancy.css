@@ -33,10 +33,7 @@ h2 {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    position: relative;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    
 }
 
 .dump {
@@ -45,8 +42,35 @@ h2 {
 }
 
 @keyframes fade {
-    0% {background-color: rgb(125, 255, 255);}
-    50% {background-color: rgb(125, 225, 225, .1);}
-    100% {background-color: rgb(125, 225, 225);}
+    0% {background-color: lightcoral;}
+    25% {background-color: rgba(240, 128, 128, 0.5) !important;}
+    50% {background-color: rgba(240, 128, 128, 0.1);}
+    75% {background-color: rgba(240, 128, 128, 0.5)!important;}
+    100% {background-color: lightcoral;}
 
 }
+
+.para1 {
+    font-size: 25px;
+    position: relative;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40%;
+    height: 50%;
+  }
+
+  .para2 {
+    font-size: 25px;
+    position: relative;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40%;
+    height: 50%;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-around;
+  }
