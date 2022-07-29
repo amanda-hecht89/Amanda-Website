@@ -15,8 +15,6 @@ export default function Education() {
         <img src='/Images/calitext.png' height='300' className='life'/>
         <img src='/Images/colorado2text.png' height='300' className='life'/>
       </div>
-      <img src='/Images/travel.jpeg' height='350' className='travel'/>
-
       <footer></footer>
     </div>
   );

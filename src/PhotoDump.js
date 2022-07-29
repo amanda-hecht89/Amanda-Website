@@ -23,6 +23,7 @@ export default function PhotoDump() {
       <img src='/Images/15.jpeg' height='250' className='dump'/>
       <img src='/Images/16.jpeg' height='250' className='dump'/>
       <img src='/Images/17.jpeg' height='250' className='dump'/>
+      <img src='/Images/travel.jpeg' height='250' className='dump'/>
 
     </div>
   );

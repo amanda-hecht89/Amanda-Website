@@ -9,8 +9,8 @@
 }
 
 .photo1 {
-  border-radius: 50%;
-  border: 5px solid lightcoral;
+  border: 20px solid transparent;
+  border-image: url(border3.png) 30 round;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 
 .icon {
   height: 145px;
-  border: 5px solid green;
   margin: 3px;
   padding: 35px;
 }
@@ -53,12 +52,6 @@ body {
   border-radius: 10%;
   opacity: .8;
 }
-
-.travel {
-  border-radius: 10%;
-}
-
-
 
 .welcome {
   display: flex;
