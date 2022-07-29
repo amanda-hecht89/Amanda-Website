@@ -33,9 +33,20 @@ h2 {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    }
+    position: relative;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
-    .dump {
-        border-radius: 35%;
-        padding: 10px;
-    }
+.dump {
+    border-radius: 35%;
+    padding: 10px;
+}
+
+@keyframes fade {
+    0% {background-color: rgb(125, 255, 255);}
+    50% {background-color: rgb(125, 225, 225, .1);}
+    100% {background-color: rgb(125, 225, 225);}
+
+}
