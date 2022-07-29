@@ -7,17 +7,15 @@ export default function ShellGame() {
   const [loss, setLoss] = useState(0);
   const [reveal, setReveal] = useState(false);
 
-  function handleShellOneClick() {
-
-  }
-
-  function handleShellTwoClick() {
-
-  }
-
-  function handleShellThreeCLick() {
-
-  }
+  function handleShellClick(guess) {
+    const randomNum1 = Math.ceil(Math.random() * 3);
+    if (randomNum1 === guess) {
+      `ball${guess}`.classList.add('reveal');
+      setWin(win + 1) ;
+    } else {
+      `ball${randomNum1}`.classList.add('reveal');
+      setLoss(loss + 1);
+    }}
 
 
   return (
@@ -37,23 +35,23 @@ export default function ShellGame() {
       <div className='shellGame'>
         <div className={ reveal ? 'reveal' : 'hide' }>
           <h2>ASPEN</h2>
-          <div className='shellsss'>
+          <div className='shellsss shell1'>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
             <img className='ball' src='./Images/yeti.png' height='150'/>
           </div>
-          <button className='button'>PICK HERE</button><br/><br/><br/><br/>
+          <button onClick={() => handleShellClick(1)} className='button'>PICK HERE</button><br/><br/><br/><br/>
           <h2>ESTES PARK</h2>
-          <div className='shellsss'>
+          <div className='shellsss shell2'>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
             <img className='ball' src='./Images/yeti.png' height='150'/>
           </div>
-          <button className='button'>PICK HERE</button><br/><br/><br/><br/>
+          <button onClick={() => handleShellClick(2)} className='button'>PICK HERE</button><br/><br/><br/><br/>
           <h2>BRECKENRIDGE</h2>
-          <div className='shellsss'>
+          <div className='shellsss shell3'>
             <img className='shell' src='./Images/colorado2.png' height='200'/>
             <img className='ball' src='./Images/yeti.png' height='150'/>
           </div>
-          <button className='button'>PICK HERE</button>
+          <button onClick={() => handleShellClick(3)} className='button'>PICK HERE</button>
         </div>
       </div>
 
@@ -67,19 +65,19 @@ export default function ShellGame() {
         <div>
           <p className='para4'>
             WINS:
-            <span className='win'>0</span>
+            <span className='win'>{win}</span>
           </p>
         </div>
         <div>
           <p className='para4'>
             LOSSES:
-            <span className='loses'>0</span>
+            <span className='loses'>{loss}</span>
           </p>
         </div>
         <div>
           <p className='para4'>
             TOTAL GAMES:
-            <span className='total'>0</span>
+            <span className='total'>{win + loss}</span>
           </p>
         </div>
       </div>
