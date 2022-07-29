@@ -8,6 +8,8 @@ import Education from './Education';
 import ContactMe from './ContactMe';
 import Welcome from './Welcome';
 import PhotoDump from './PhotoDump';
+import ShellGame from './ShellGame';
+import AboutMe from './AboutMe';
 import './App.css';
 import './Fancy.css';
 
@@ -19,6 +21,8 @@ export default function App() {
         <nav className="nav-header">
           <Link className="nav-items" to="/">Home</Link> 
           <Link className='nav-items' to="/education">My History</Link>
+          <Link className="nav-items" to="/game">Shell Game</Link>
+          <Link className="nav-items" to="/about">About Me</Link>
           <Link className="nav-items" to="/credits">Contact Me</Link>
           <Link className="nav-items" to="/photos">Photo Dump</Link>
         </nav>
@@ -27,6 +31,12 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <Welcome />
+          </Route>
+          <Route exact path="/game">
+            <ShellGame/>
+          </Route>
+          <Route exact path="/about">
+            <AboutMe/>
           </Route>
           <Route exact path="/photos">
             <PhotoDump />

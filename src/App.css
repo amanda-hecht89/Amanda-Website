@@ -1,6 +1,7 @@
 
 .nav-header {
-  border: 3px solid rgba(55, 146, 226, 0.956);
+  border: 10px solid transparent;
+  border-image: url(border3.png) 30 round;
   font-size: 35px;
   display: flex;
   justify-content: space-around;
@@ -8,8 +9,8 @@
 }
 
 .photo1 {
-  border-radius: 50%;
-  border: 5px solid lightcoral;
+  border: 20px solid transparent;
+  border-image: url(border3.png) 30 round;
 }
 
 body {
@@ -20,19 +21,30 @@ body {
 
 .icon {
   height: 145px;
+  margin: 3px;
+  padding: 35px;
 }
 
 .links {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 }
 
 .profiles {
   display: flex;
+  border: 20px solid transparent;
+  border-image: url(border3.png) 30 round;
+  margin: 5px;
+  padding: 15px;
 }
 
 .projects {
   display: flex;
+  border: 20px solid transparent;
+  border-image: url(border3.png) 30 round;
+  padding: 15px;
 }
 
 .life {
@@ -41,10 +53,8 @@ body {
   opacity: .8;
 }
 
-.travel {
-  border-radius: 10%;
-}
-
-.para1 {
-  font-size: 25px;
+.welcome {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
 }
