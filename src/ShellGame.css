@@ -23,7 +23,7 @@
     border: 3px solid green;
     display: flex;
     margin: 3px;
-    padding: 15px;
+    padding: 15px;    
 }
 
 .button {
@@ -41,6 +41,6 @@
 }
 
 .shell {
-border: 4px solid black;
+border: 4px solid lightgreen;
 }
 
