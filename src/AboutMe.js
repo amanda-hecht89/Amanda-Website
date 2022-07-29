@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Toggle from './Toggle';
-import toggle from './Toggle';
 
 
 export default function AboutMe() {
