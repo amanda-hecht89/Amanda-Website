@@ -1,0 +1,7 @@
+.para3 {
+    font-size: 25px;
+    border: 3px solid lightcoral;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
