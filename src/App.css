@@ -35,7 +35,7 @@ body {
 .profiles {
   display: flex;
   border: 20px solid transparent;
-  border-image: url(border1.png) 30 round;
+  border-image: url(border3.png) 30 round;
   margin: 5px;
   padding: 15px;
 }
@@ -43,7 +43,7 @@ body {
 .projects {
   display: flex;
   border: 20px solid transparent;
-  border-image: url(border2.jpg) 30 round;
+  border-image: url(border3.png) 30 round;
   padding: 15px;
 }
 
