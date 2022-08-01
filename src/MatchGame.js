@@ -23,11 +23,23 @@ export default function MatchGame() {
   };
 
 
-  
+
   return (
     <div className='matchApp'>
       <h1>Match Game!</h1>
       <button onClick={shuffleCards}>New Game</button>
+
+      <div>
+        {cards.map(card => (
+          <div key={card.id} className='cardGrid'>
+            <div className='card'>
+              <img className='front' src={card.src} height='200'/>
+              <img className='back'src='/Images/cover.png' height='200' />
+
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
