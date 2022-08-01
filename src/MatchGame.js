@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './MatchGame.css';
 import SingleMatchCard from './SingleMatchCard';
 
 const cardImages = [
-  { 'src': '/Images/blue.png' },
-  { 'src': '/Images/grey.png' },
-  { 'src': '/Images/green.png' },
-  { 'src': '/Images/purple.png' },
-  { 'src': '/Images/pink.png' },
-  { 'src': '/Images/orange.png' },
+  { 'src': '/Images/blue.png', matched: false },
+  { 'src': '/Images/grey.png', matched: false },
+  { 'src': '/Images/green.png', matched: false },
+  { 'src': '/Images/purple.png', matched: false },
+  { 'src': '/Images/pink.png', matched: false },
+  { 'src': '/Images/orange.png', matched: false },
 ];
 
 export default function MatchGame() {
@@ -28,8 +28,36 @@ export default function MatchGame() {
   };
 
   const handleChoice = (card) => {
-    console.log(card);
+    choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
 
+  };
+
+  useEffect(() => {
+    if (choiceOne && choiceTwo) {
+      if (choiceOne.src === choiceTwo.src) {
+        setCards(prevCards => {
+          return prevCards.map(card => {
+            if (card.src === choiceOne.src) {
+              return { ...card, matched: true };
+            } else {
+              return card;
+            }
+          });
+        });
+        resetTurn();
+      } else {
+        
+        resetTurn();
+      }
+    }
+    
+  }, [choiceOne, choiceTwo]);
+  console.log(cards);
+
+  const resetTurn = () => {
+    setChoiceOne(null);
+    setChoiceTwo(null);
+    setTurns(prevTurns => prevTurns + 1);
   };
 
 
