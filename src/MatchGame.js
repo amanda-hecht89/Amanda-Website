@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './MatchGame.css';
 
 const cardImages = [
   { 'src': '/Images/blue.png' },
@@ -15,13 +16,16 @@ export default function MatchGame() {
   const [turns, setTurns] = useState(0);
 
   const shuffleCards = () => {
-    const shuffledCards = [...cardImages].sort(() => Math.random() - 0.5).map((card) => ({ ...card, id: Math.random() }));
+    const shuffledCards = [...cardImages, ...cardImages].sort(() => Math.random() - 0.5).map((card) => ({ ...card, id: Math.random() }));
 
     setCards(shuffledCards);
     setTurns(0);
   };
+
+
+  
   return (
-    <div>
+    <div className='matchApp'>
       <h1>Match Game!</h1>
       <button onClick={shuffleCards}>New Game</button>
     </div>
