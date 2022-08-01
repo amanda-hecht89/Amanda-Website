@@ -14,7 +14,7 @@ const cardImages = [
 export default function MatchGame() {
 
   const [cards, setCards] = useState([]);
-  const [turns, setTurns] = useState(0);
+  const [turns, setTurns] = useState(0); 
   const [choiceOne, setChoiceOne] = useState(null);
   const [choiceTwo, setChoiceTwo] = useState(null);
 
@@ -52,7 +52,6 @@ export default function MatchGame() {
     }
     
   }, [choiceOne, choiceTwo]);
-  console.log(cards);
 
   const resetTurn = () => {
     setChoiceOne(null);
@@ -77,6 +76,7 @@ export default function MatchGame() {
           
         ))}
       </div>
+      turns={`${turns}`}
     </div>
   );
 }
