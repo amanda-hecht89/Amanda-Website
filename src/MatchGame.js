@@ -47,7 +47,7 @@ export default function MatchGame() {
         resetTurn();
       } else {
         
-        resetTurn();
+        setTimeout(() => resetTurn(), 1000) ;
       }
     }
     
@@ -67,12 +67,13 @@ export default function MatchGame() {
       <h1>Match Game!</h1>
       <button onClick={shuffleCards}>New Game</button>
 
-      <div>
+      <div className='cardGrid'>
         {cards.map(card => (
           <SingleMatchCard 
             key={card.id} 
             card={card} 
-            handleChoice={handleChoice}/>
+            handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}/>
           
         ))}
       </div>
