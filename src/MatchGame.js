@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './MatchGame.css';
+import SingleMatchCard from './SingleMatchCard';
 
 const cardImages = [
   { 'src': '/Images/blue.png' },
@@ -7,19 +8,28 @@ const cardImages = [
   { 'src': '/Images/green.png' },
   { 'src': '/Images/purple.png' },
   { 'src': '/Images/pink.png' },
-  { 'src': '/Images/green.png' },
+  { 'src': '/Images/orange.png' },
 ];
 
 export default function MatchGame() {
 
   const [cards, setCards] = useState([]);
   const [turns, setTurns] = useState(0);
+  const [choiceOne, setChoiceOne] = useState(null);
+  const [choiceTwo, setChoiceTwo] = useState(null);
 
   const shuffleCards = () => {
-    const shuffledCards = [...cardImages, ...cardImages].sort(() => Math.random() - 0.5).map((card) => ({ ...card, id: Math.random() }));
+    const shuffledCards = [...cardImages, ...cardImages]
+      .sort(() => Math.random() - 0.5)
+      .map((card) => ({ ...card, id: Math.random() }));
 
     setCards(shuffledCards);
     setTurns(0);
+  };
+
+  const handleChoice = (card) => {
+    console.log(card);
+
   };
 
 
@@ -31,13 +41,11 @@ export default function MatchGame() {
 
       <div>
         {cards.map(card => (
-          <div key={card.id} className='cardGrid'>
-            <div className='card'>
-              <img className='front' src={card.src} height='200'/>
-              <img className='back'src='/Images/cover.png' height='200' />
-
-            </div>
-          </div>
+          <SingleMatchCard 
+            key={card.id} 
+            card={card} 
+            handleChoice={handleChoice}/>
+          
         ))}
       </div>
     </div>
