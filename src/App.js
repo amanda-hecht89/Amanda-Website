@@ -10,6 +10,7 @@ import Welcome from './Welcome';
 import PhotoDump from './PhotoDump';
 import ShellGame from './ShellGame';
 import AboutMe from './AboutMe';
+import MatchGame from './MatchGame';
 import './App.css';
 import './Fancy.css';
 
@@ -22,6 +23,7 @@ export default function App() {
           <Link className="nav-items" to="/">Home</Link> 
           <Link className='nav-items' to="/education">My History</Link>
           <Link className="nav-items" to="/game">Shell Game</Link>
+          <Link className="nav-items" to="/match">Match Game</Link>
           <Link className="nav-items" to="/about">About Me</Link>
           <Link className="nav-items" to="/credits">Contact Me</Link>
           <Link className="nav-items" to="/photos">Photo Dump</Link>
@@ -34,6 +36,9 @@ export default function App() {
           </Route>
           <Route exact path="/game">
             <ShellGame/>
+          </Route>
+          <Route exact path="/match">
+            <MatchGame/>
           </Route>
           <Route exact path="/about">
             <AboutMe/>
