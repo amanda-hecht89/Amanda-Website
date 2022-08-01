@@ -17,13 +17,11 @@ export default function SingleMatchCard({ card, handleChoice, flipped }) {
         <div className='card'>
           <img 
             className='front' 
-            src={card.src} 
-            height='200'/>
+            src={card.src} />
           <img 
             className='back'
             src='/Images/cover.png' 
-            onClick={handleClick} 
-            height='200' />
+            onClick={handleClick}/>
 
         </div>
       </div>

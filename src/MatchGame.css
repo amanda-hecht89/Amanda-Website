@@ -6,8 +6,9 @@
 }
 
 button {
-    color: green;
-    border: 3px solid brown;
+    color: lightcoral;
+    border: 3px solid lightcoral;
+    border-radius: 15px;
 }
 
 .matchGame {
