@@ -64,7 +64,14 @@ export default function MatchGame() {
   return (
     <div className='matchApp'>
       <h1>Match Game!</h1>
-      <button onClick={shuffleCards}>New Game</button>
+      <button onClick={shuffleCards}>
+        <h2>
+            New Game!
+        </h2>
+      </button>
+      <h2>
+        turns={`${turns}`}
+      </h2>
 
       <div className='cardGrid'>
         {cards.map(card => (
@@ -76,7 +83,7 @@ export default function MatchGame() {
           
         ))}
       </div>
-      turns={`${turns}`}
+
     </div>
   );
 }
