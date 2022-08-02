@@ -1,10 +1,13 @@
 import React from 'react';
 import './SingleMatchCard.css';
 
-export default function SingleMatchCard({ card, handleChoice, flipped }) {
+export default function SingleMatchCard({ card, handleChoice, flipped, disabled }) {
 
   const handleClick = () => {
-    handleChoice(card);
+    if (!disabled) {
+
+      handleChoice(card);
+    }
         
   };
 
