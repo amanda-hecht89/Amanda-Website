@@ -7,10 +7,6 @@ import {
 import Education from './Education';
 import ContactMe from './ContactMe';
 import Welcome from './Welcome';
-import PhotoDump from './PhotoDump';
-import ShellGame from './ShellGame';
-import AboutMe from './AboutMe';
-import MatchGame from './MatchGame';
 import './App.css';
 import './Fancy.css';
 
@@ -22,29 +18,13 @@ export default function App() {
         <nav className="nav-header">
           <Link className="nav-items" to="/">Home</Link> 
           <Link className='nav-items' to="/education">My History</Link>
-          <Link className="nav-items" to="/game">Shell Game</Link>
-          <Link className="nav-items" to="/match">Match Game</Link>
-          <Link className="nav-items" to="/about">About Me</Link>
           <Link className="nav-items" to="/credits">Contact Me</Link>
-          <Link className="nav-items" to="/photos">Photo Dump</Link>
         </nav>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
           <Route exact path="/">
             <Welcome />
-          </Route>
-          <Route exact path="/game">
-            <ShellGame/>
-          </Route>
-          <Route exact path="/match">
-            <MatchGame/>
-          </Route>
-          <Route exact path="/about">
-            <AboutMe/>
-          </Route>
-          <Route exact path="/photos">
-            <PhotoDump />
           </Route>
           <Route exact path="/credits">
             <ContactMe />
