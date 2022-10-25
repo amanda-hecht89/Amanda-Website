@@ -1,16 +1,9 @@
 
 .nav-header {
-  border: 10px solid transparent;
-  border-image: url(border3.png) 30 round;
   font-size: 35px;
   display: flex;
   justify-content: space-around;
   background-color: lightcoral;
-}
-
-.photo1 {
-  border: 20px solid transparent;
-  border-image: url(border3.png) 30 round;
 }
 
 body {
@@ -25,32 +18,17 @@ body {
   padding: 35px;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .profiles {
   display: flex;
-  border: 20px solid transparent;
-  border-image: url(border3.png) 30 round;
+  flex-direction: column;
   margin: 5px;
   padding: 15px;
 }
 
 .projects {
   display: flex;
-  border: 20px solid transparent;
-  border-image: url(border3.png) 30 round;
+  flex-direction: column;
   padding: 15px;
-}
-
-.life {
-  padding: 10px;
-  border-radius: 10%;
-  opacity: .8;
 }
 
 .welcome {

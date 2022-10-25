@@ -36,10 +36,6 @@ h2 {
     
 }
 
-.dump {
-    border-radius: 35%;
-    padding: 10px;
-}
 
 @keyframes fade {
     0% {background-color: lightcoral;}
@@ -52,27 +48,8 @@ h2 {
 
 .para1 {
     font-size: 25px;
-    position: relative;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    width: 40%;
-    height: 50%;
-    border: 15px solid transparent;
-    border-image: url(border3.png) 30 round;
   }
 
-  .para2 {
-    font-size: 25px;
-    position: relative;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    width: 40%;
-    height: 50%;
-    border: 15px solid transparent;
-    border-image: url(border3.png) 30 round;
-  }
 
   .about {
     display: flex;
