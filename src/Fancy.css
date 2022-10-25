@@ -15,24 +15,11 @@
 
 }
 
-h1 {
-    position: relative;
-    animation-name: scroll;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    font-family: 'Rampart One', cursive;
-    background: -webkit-linear-gradient(rgb(11, 88, 123), lightcoral);
-    background-clip: content-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 65px;
-}
+
 
 h2 {
     font-family: 'Fredoka One', cursive;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
     
 }
 

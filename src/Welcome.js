@@ -12,7 +12,7 @@ export default function Welcome() {
         <h1>WELCOME</h1>
         <h2>AMANDA HECHT</h2>
         <div className='about'>
-          <img className='photo1' src='/Images/amanda1.jpeg 'height='475' width='400'/>
+          <img className='photo1' src='/Images/amandaFall.jpeg 'height='475' width='400'/>
           <div className='paragraph'>
             <p className='para1'>
             Im a Software Engineer with a background in Barbering and Beauty.<br /> 

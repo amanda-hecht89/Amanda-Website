@@ -3,12 +3,12 @@
   font-size: 35px;
   display: flex;
   justify-content: space-around;
-  background-color: lightcoral;
+  background-color: #ABA4B1;
 }
 
 body {
   /* background-image: url(./background1.jpg); */
-  background-color: rgba(55, 146, 226, 0.54);
+  background-color: #b57739bf;
   background-size: 30%;
 }
 
@@ -16,23 +16,31 @@ body {
   height: 145px;
   margin: 3px;
   padding: 35px;
+  border: 3px solid #A4D1F1;
 }
 
 .profiles {
   display: flex;
-  flex-direction: column;
   margin: 5px;
   padding: 15px;
+  border: 3px solid #A4D1F1;
 }
 
 .projects {
   display: flex;
-  flex-direction: column;
+  margin: 5px;
   padding: 15px;
+  border: 3px solid #A4D1F1;
 }
 
 .welcome {
   display: flex;
   align-content: center;
   flex-direction: column;
+  color: #49412F;
+}
+
+.photo1 {
+  border-radius: 25%;
+  border: 3px solid #A4D1F1;
 }

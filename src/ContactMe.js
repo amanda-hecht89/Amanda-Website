@@ -19,7 +19,7 @@ export default function ContactMe() {
             </div>
             <div className='alsolinks'>
               <h2>RESUME</h2>
-              <a href="https://www.canva.com/design/DAFDJxHVwfM/Uxf0i951TLe4zh5BIg70ug/view?utm_content=DAFDJxHVwfM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+              <a href="https://www.canva.com/design/DAFDJxHVwfM/QWny1HkM4459_fV9YhtU1A/view?utm_content=DAFDJxHVwfM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
                 target="/blank"><img src="/images/resume.jpg" className="icon" /></a>
               <p>Here is a link to my Resume</p>
             </div>
