@@ -19,28 +19,12 @@ export default function ContactMe() {
             </div>
             <div className='alsolinks'>
               <h2>RESUME</h2>
-              <a href="https://www.canva.com/design/DAFDJxHVwfM/Uxf0i951TLe4zh5BIg70ug/view?utm_content=DAFDJxHVwfM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+              <a href="https://www.canva.com/design/DAFDJxHVwfM/QWny1HkM4459_fV9YhtU1A/view?utm_content=DAFDJxHVwfM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
                 target="/blank"><img src="/images/resume.jpg" className="icon" /></a>
               <p>Here is a link to my Resume</p>
             </div>
           </div>
-          <div className='projects'>
-            <div className='alsolinks'>
-              <h2>HYNT</h2>
-              <a href="https://benevolent-jalebi-781aea.netlify.app/" target="/blank"><img src="/images/hynt.png" className="icon" /></a>
-              <p>Here is a link to HYNT, <br /> a text adventure game.<br /> The first group project I ever did. <br /> Made on Vanilla JavaScript. </p>
-            </div>
-            <div className='alsolinks'>
-              <h2>PAAC</h2>
-              <a href="https://benevolent-jalebi-781aea.netlify.app/" target="/blank"><img src="/images/paac.png" className="icon" /></a>
-              <p>Here is a link to PAAC, <br /> a saltwater outsourced database. <br /> The second group project I did. <br /> Made on React </p>
-            </div>
-            <div className='alsolinks'>
-              <h2>PIXIE.JS</h2>
-              <a href="https://pixie-tarot-api.herokuapp.com/" target="/blank"><img src="/images/pixie2.png" className="icon" /></a>
-              <p>Here is a link to Pixie.js, a tarot card API. <br /> The third group project I did. Made on JavaScript, backend heavy. </p>
-            </div>
-          </div>
+          
         </div>
       </div>
       <footer></footer>
