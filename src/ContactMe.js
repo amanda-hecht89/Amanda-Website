@@ -40,6 +40,11 @@ export default function ContactMe() {
               <a href="https://pixie-tarot-api.herokuapp.com/" target="/blank"><img src="/images/pixie2.png" className="icon" /></a>
               <p>Here is a link to Pixie.js, a tarot card API. <br /> The third group project I did. Made on JavaScript, backend heavy. </p>
             </div>
+            <div className='alsolinks'>
+              <h2>Happy Tails</h2>
+              <a href="https://happy-tails-dogpark.herokuapp.com/" target="/blank"><img src="/images/HappyTails.png" className="icon" /></a>
+              <p></p>
+            </div>
           </div>
         </div>
       </div>

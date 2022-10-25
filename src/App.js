@@ -4,7 +4,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import Education from './Education';
+
 import ContactMe from './ContactMe';
 import Welcome from './Welcome';
 import './App.css';
@@ -17,7 +17,6 @@ export default function App() {
 
         <nav className="nav-header">
           <Link className="nav-items" to="/">Home</Link> 
-          <Link className='nav-items' to="/education">My History</Link>
           <Link className="nav-items" to="/credits">Contact Me</Link>
         </nav>
         {/* A <Switch> looks through its children <Route>s and
@@ -28,9 +27,6 @@ export default function App() {
           </Route>
           <Route exact path="/credits">
             <ContactMe />
-          </Route>
-          <Route exact path="/education">
-            <Education/>
           </Route>
         </Switch>
       </div>
