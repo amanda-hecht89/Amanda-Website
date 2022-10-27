@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Fancy.css';
+import Projects from './Projects';
 
 
 export default function Welcome() {
@@ -18,6 +19,9 @@ export default function Welcome() {
             Im a Software Engineer out of Denver CO with a background in Barbering and Beauty.
             </p>
           </div>
+        </div>
+        <div>
+          <Projects/>
         </div>
       </div>
       <footer></footer>

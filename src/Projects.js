@@ -1,9 +1,10 @@
 import React from 'react';
+import ProjectCarousel from './Carousel';
 
 export default function Projects() {
   return (
     <div>
-      <p>carousel loads here</p>
+      <ProjectCarousel/>
     </div>
   );
 }
