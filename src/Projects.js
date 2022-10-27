@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div>
+      <p>carousel loads here</p>
+    </div>
   );
 }
-
-
