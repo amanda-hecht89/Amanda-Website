@@ -14,7 +14,7 @@ export default function Item({ item })
           </div>
           <div className='onent'>
             <p>{item.description}</p>
-            <a href={item.url}>link here</a>
+            <a href={item.link}>{item.link}</a>
           </div>
         </div>
       </div>

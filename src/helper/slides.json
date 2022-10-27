@@ -3,36 +3,36 @@
         "id": 1,
         "title": "Arcade",
         "image": "/Images/arcade.jpg",
-        "description": "the type of app",
-        "url": "link here"
+        "description": "This is a webiste I made to hold all the game apps I made. Some are react most are JavaScript. Enjoy!",
+        "link": "https://amandarcade.netlify.app/"
     },
     {
         "id": 2,
         "title": "HYNT",
         "image": "/Images/hynt.png",
-        "description": "the type of app5",
-        "url": "link here"
+        "description": "Here is a link to HYNT, a text adventure game.The first group project I ever did. Made on Vanilla JavaScript.",
+        "link": "https://benevolent-jalebi-781aea.netlify.app/"
     },
     {
         "id": 3,
         "title": "PAAC angry fisch",
         "image": "/Images/paac.png",
-        "description": "the type of app1",
-        "url": "link here"
+        "description": "Here is a link to PAAC, a saltwater outsourced database. The second group project I did. Made on React ",
+        "link": "https://benevolent-jalebi-781aea.netlify.app/"
 
     },
     {
         "id": 4,
         "title": "PIXIE.js",
         "image": "/Images/pixie2.png",
-        "description": "the type of app2",
-        "url": "link here"
+        "description": "Here is a link to Pixie.js, a tarot card API. The third group project I did. Made on JavaScript, backend heavy. ",
+        "link": "https://pixie-tarot-api.herokuapp.com/"
     },
     {
         "id": 5,
         "title": "Happy Tails",
         "image": "/Images/happytails.png",
-        "description": "the type of app3",
-        "url": "link here"
+        "description": "Happy Tails is a mono repo full stack app using the Yelp API to hit a dogpark endpoint. Wrote with full crud on React.",
+        "link": "https://happy-tails-dogpark.herokuapp.com/"
     }
 ]
