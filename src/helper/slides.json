@@ -2,37 +2,37 @@
     {
         "id": 1,
         "title": "Arcade",
-        "image": "image here",
+        "image": "/Images/arcade.jpg",
         "description": "the type of app",
         "url": "link here"
     },
     {
         "id": 2,
         "title": "HYNT",
-        "image": "image here",
-        "description": "the type of app",
+        "image": "/Images/hynt.png",
+        "description": "the type of app5",
         "url": "link here"
     },
     {
         "id": 3,
         "title": "PAAC angry fisch",
-        "image": "image here",
-        "description": "the type of app",
+        "image": "/Images/paac.png",
+        "description": "the type of app1",
         "url": "link here"
 
     },
     {
         "id": 4,
         "title": "PIXIE.js",
-        "image": "image here",
-        "description": "the type of app",
+        "image": "/Images/pixie2.png",
+        "description": "the type of app2",
         "url": "link here"
     },
     {
         "id": 5,
         "title": "Happy Tails",
-        "image": "image here",
-        "description": "the type of app",
+        "image": "/Images/happytails.png",
+        "description": "the type of app3",
         "url": "link here"
     }
 ]

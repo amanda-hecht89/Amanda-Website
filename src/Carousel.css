@@ -1,13 +1,11 @@
-.component {
-    background-color: #ABA4B1;
-}
 
 .comp {
     display: flex;
     flex-direction: row;
-    border: 5px solid blue;
+    background-color: #ABA4B1;
 }
 
 .onent {
-    border: 3px solid brown;
+    background-color: #ABA4B1;
+    margin-top: -20px;
 }
