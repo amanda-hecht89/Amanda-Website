@@ -10,6 +10,10 @@ a:visited {
   color: #49412F;
 }
 
+footer {
+  margin: 55px;
+}
+
 a {
   text-decoration: none;
 }

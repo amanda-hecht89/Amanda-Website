@@ -21,6 +21,7 @@ export default function Welcome() {
           </div>
         </div>
         <div>
+          <h3>My Projects!</h3>
           <Projects/>
         </div>
       </div>

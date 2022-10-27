@@ -2,26 +2,37 @@
     {
         "id": 1,
         "title": "Arcade",
-        "image": "image here"
+        "image": "image here",
+        "description": "the type of app",
+        "url": "link here"
     },
     {
         "id": 2,
         "title": "HYNT",
-        "image": "image here"
+        "image": "image here",
+        "description": "the type of app",
+        "url": "link here"
     },
     {
         "id": 3,
-        "title": "PAAC andry fisch",
-        "image": "image here"
+        "title": "PAAC angry fisch",
+        "image": "image here",
+        "description": "the type of app",
+        "url": "link here"
+
     },
     {
         "id": 4,
         "title": "PIXIE.js",
-        "image": "image here"
+        "image": "image here",
+        "description": "the type of app",
+        "url": "link here"
     },
     {
         "id": 5,
         "title": "Happy Tails",
-        "image": "image here"
+        "image": "image here",
+        "description": "the type of app",
+        "url": "link here"
     }
 ]
