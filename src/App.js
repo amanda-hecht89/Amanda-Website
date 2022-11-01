@@ -6,8 +6,6 @@ import {
 
 import Welcome from './Welcome';
 import './App.css';
-import './Fancy.css';
-
 
 export default function App() {
   return (
