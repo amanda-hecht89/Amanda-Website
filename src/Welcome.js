@@ -7,8 +7,6 @@ import Projects from './Projects';
 export default function Welcome() {
   return (
     <div>
-
-
       <div className='welcome'>
         <div className='photo2' >
           <img src='/Images/myname1.png 'height='475' width='650'/>

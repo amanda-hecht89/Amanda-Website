@@ -2,10 +2,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
 } from 'react-router-dom';
 
-import ContactMe from './ContactMe';
 import Welcome from './Welcome';
 import './App.css';
 import './Fancy.css';
@@ -17,17 +15,24 @@ export default function App() {
       <div className='app'>
 
         <nav className="nav-header">
-          <Link className="nav-items" to="/">Home</Link> 
-          <Link className="nav-items" to="/credits">Contact Me</Link>
+          <div className='profiles'>
+            <div className='alsolinks'>
+              <a href="https://www.linkedin.com/in/amanda-hecht/" target="/blank"><img src="/images/LinkedIn-icon.png" className="icon" /></a>
+            </div>
+            <div className='alsolinks'>
+              <a href="https://github.com/amanda-hecht89" target="/blank"><img src="/images/GitHub-icon.png" className="icon" /></a>
+            </div>
+            <div className='alsolinks'>
+              <a href="https://www.canva.com/design/DAFDJxHVwfM/QWny1HkM4459_fV9YhtU1A/view?utm_content=DAFDJxHVwfM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+                target="/blank"><img src="/images/resume.jpg" className="icon" /></a>
+            </div>
+          </div>
         </nav>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
           <Route exact path="/">
             <Welcome />
-          </Route>
-          <Route exact path="/credits">
-            <ContactMe />
           </Route>
         </Switch>
       </div>
