@@ -8,7 +8,7 @@ export default function Welcome() {
     <div>
       <div className='welcome'>
         <div className='photo2' >
-          <img src='/Images/myname1.png 'height='475' width='650'/>
+          <img src='/Images/myname4.png 'height='350' width='auto'/>
         </div>
         <div className='about'>
           <div className='paragraph'>
@@ -17,9 +17,11 @@ export default function Welcome() {
             </p>
           </div>
         </div>
-        <div>
-          <h3>My Projects!</h3>
-          <Projects/>
+        <div className='flex'>
+          <div className='pros'>
+            <h3>My Projects!</h3>
+            <Projects/>
+          </div>
         </div>
       </div>
       <footer></footer>
