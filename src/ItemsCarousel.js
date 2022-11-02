@@ -10,7 +10,7 @@ export default function Item({ item })
         <div className='component'>
           <div className='comp'>
             <h2>{item.title}</h2>
-            <img src={item.image} alt={item.image} height="200"/>
+            <img className='projectPhotos' src={item.image} alt={item.image}/>
           </div>
           <div className='onent'>
             <p>{item.description}</p>

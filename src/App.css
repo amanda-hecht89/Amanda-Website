@@ -1,40 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 .nav-header {
-  font-size: 35px;
   display: flex;
-  justify-content: space-around;
-  background-color: #ABA4B1;
-}
-
-a:visited {
-  color: #49412F;
+  justify-content: flex-end;
 }
 
 footer {
   margin: 55px;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
-  /* background-image: url(./background1.jpg); */
   background-color: #b57739bf;
-  background-size: 30%;
 }
 
 .icon {
-  height: 145px;
+  height: 35px;
   margin: 3px;
   padding: 35px;
 }
 
+.pros {
+  width: 75%;
+  font-family: 'Special Elite', cursive;
+}
+
 .profiles {
   display: flex;
-  margin: 5px;
-  padding: 15px;
-  border: 6px solid #A4D1F1;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 .projects {
@@ -50,13 +46,22 @@ body {
   flex-direction: column;
   color: #49412F;
 }
-
-.photo1 {
-  border-radius: 25%;
-  border: 6px solid #A4D1F1;
-}
-
 .photo2 {
   display: flex;
   justify-content: center;
+}
+
+.projectPhotos {
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.para1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
 }

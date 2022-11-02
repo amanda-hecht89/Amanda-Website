@@ -2,14 +2,14 @@
     {
         "id": 1,
         "title": "Arcade",
-        "image": "/Images/arcade.jpg",
+        "image": "/Images/arcade2.png",
         "description": "This is a webiste I made to hold all the game apps I made. Some are react most are JavaScript. Enjoy!",
         "link": "https://amandarcade.netlify.app/"
     },
     {
         "id": 2,
         "title": "HYNT",
-        "image": "/Images/hynt.png",
+        "image": "/Images/hynt2.png",
         "description": "Here is a link to HYNT, a text adventure game.The first group project I ever did. Made on Vanilla JavaScript.",
         "link": "https://benevolent-jalebi-781aea.netlify.app/"
     },
