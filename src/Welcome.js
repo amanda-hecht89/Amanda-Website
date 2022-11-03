@@ -8,12 +8,12 @@ export default function Welcome() {
     <div>
       <div className='welcome'>
         <div className='photo2' >
-          <img src='/Images/myname4.png 'height='350' width='auto'/>
+          <img src='/Images/myname4-1.png 'height='220' width='auto'/>
         </div>
         <div className='about'>
           <div className='paragraph'>
             <p className='para1'>
-            Im a Software Engineer out of Denver CO with a background in Barbering and Beauty.
+            Im a fullstack Software Engineer out of Denver CO with a background in Barbering and Beauty.
             </p>
           </div>
         </div>

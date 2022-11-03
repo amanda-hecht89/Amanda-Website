@@ -3,6 +3,7 @@
 .nav-header {
   display: flex;
   justify-content: flex-end;
+  height: 5px;
 }
 
 footer {
@@ -20,7 +21,7 @@ body {
 }
 
 .pros {
-  width: 75%;
+  width: 35%;
   font-family: 'Special Elite', cursive;
 }
 
@@ -49,6 +50,7 @@ body {
 .photo2 {
   display: flex;
   justify-content: center;
+  padding: 0%;
 }
 
 .projectPhotos {

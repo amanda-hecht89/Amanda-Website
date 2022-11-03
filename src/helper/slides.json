@@ -3,21 +3,21 @@
         "id": 1,
         "title": "Arcade",
         "image": "/Images/arcade2.png",
-        "description": "This is a webiste I made to hold all the game apps I made. Some are react most are JavaScript. Enjoy!",
+        "description": "This is a webiste I made to hold all the game apps I made. Some are react most are JavaScript.",
         "link": "https://amandarcade.netlify.app/"
     },
     {
         "id": 2,
         "title": "HYNT",
         "image": "/Images/hynt2.png",
-        "description": "Here is a link to HYNT, a text adventure game.The first group project I ever did. Made on Vanilla JavaScript.",
+        "description": "HYNT is a pick your fate text adventure game. We used Vanilla Javascript for the front end and used Supabase for the backend.",
         "link": "https://benevolent-jalebi-781aea.netlify.app/"
     },
     {
         "id": 3,
         "title": "PAAC angry fisch",
         "image": "/Images/paac.png",
-        "description": "Here is a link to PAAC, a saltwater outsourced database. The second group project I did. Made on React ",
+        "description": "PAAC is an app useing an ouutsources API to munhe certain info for diet and nutrital facts of certain Atlantic fish. This app was built with React.",
         "link": "https://benevolent-jalebi-781aea.netlify.app/"
 
     },
@@ -25,7 +25,7 @@
         "id": 4,
         "title": "PIXIE.js",
         "image": "/Images/pixie2.png",
-        "description": "Here is a link to Pixie.js, a tarot card API. The third group project I did. Made on JavaScript, backend heavy. ",
+        "description": "Pixie.js is a tarot card API. Backend heavy with a landing page. Made on JavaScript. ",
         "link": "https://pixie-tarot-api.herokuapp.com/"
     },
     {

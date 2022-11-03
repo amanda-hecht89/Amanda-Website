@@ -8,13 +8,15 @@ export default function Item({ item })
     <Paper>
       <div className='page'>
         <div className='component'>
-          <div className='comp'>
+          <div className='title'>
             <h2>{item.title}</h2>
+          </div>
+          <div className='comp'>
             <img className='projectPhotos' src={item.image} alt={item.image}/>
           </div>
           <div className='onent'>
             <p>{item.description}</p>
-            <a href={item.link}>{item.link}</a>
+            <a href={item.link}>VIEW SITE</a>
           </div>
         </div>
       </div>
