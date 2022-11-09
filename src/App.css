@@ -2,8 +2,13 @@
 
 .nav-header {
   display: flex;
+  justify-content: flex-start;
+}
+
+
+.linkss {
+  display: flex;
   justify-content: flex-end;
-  height: 5px;
 }
 
 footer {
@@ -11,7 +16,7 @@ footer {
 }
 
 body {
-  background-color: #ce8842bf;
+  background-color: #FAFAF5;
 }
 
 .icon {
@@ -21,12 +26,15 @@ body {
 }
 
 .pros {
-  width: 35%;
+  width: 65%;
   font-family: 'Special Elite', cursive;
+  
 }
 
 .profiles {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .flex {
@@ -45,7 +53,8 @@ body {
   display: flex;
   align-content: center;
   flex-direction: column;
-  color: #49412F;
+  color: #E69739;
+  padding: 35px;
 }
 .photo2 {
   display: flex;

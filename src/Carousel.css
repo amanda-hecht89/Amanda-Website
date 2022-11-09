@@ -2,16 +2,27 @@
 .comp {
     display: flex;
     flex-direction: row;
-    background-color: #ABA4B1;
+    background-color: #268FA6;
 }
 
 .onent {
-    background-color: #ABA4B1;
+    background-color: #268FA6;
     margin-top: -20px;
 }
 
 .title {
-    background-color: #ABA4B1;
-    margin-bottom: -20px;
+    background-color: #268FA6;
+    margin-bottom: -10px;
+    margin-top: -25px;
+}
+
+.page {
+    transition:all 400ms ease-out;
+    box-shadow:0 0 8px 3px #268FA6;
+    border:12px solid #268FA6;
+}
+
+.filler {
+    background-color: #268FA6;
 }
 
