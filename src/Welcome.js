@@ -7,9 +7,9 @@ export default function Welcome() {
   return (
     <div>
       <div className='welcome'>
-        <div className='photo2' >
-          <img src='/Images/myname4-1.png 'height='220' width='auto'/>
-        </div>
+        {/* <div className='photo2' >
+          <img src='/Images/logo2.png 'height='220' width='auto'/>
+        </div> */}
         <div className='about'>
           <div className='paragraph'>
             <p className='para1'>
