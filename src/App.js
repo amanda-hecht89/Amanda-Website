@@ -13,7 +13,7 @@ export default function App() {
       <div className='app'>
         <nav className="nav-header">
           <div className='profiles'>
-            <img src='/Images/symbol3.png 'height='120' width='auto'/> 
+            <img src='/Images/symbol3.png 'height='160' width='auto'/> 
             <div className='links'>
               <div className='linkss'>
 
